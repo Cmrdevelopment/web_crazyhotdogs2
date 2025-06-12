@@ -3,7 +3,7 @@ const HeroSection = () => {
     <div className="relative h-screen flex items-center justify-center bg-[#FFC000] overflow-hidden">
       <div className="absolute inset-0 bg-black opacity-10"></div>
       <div className="relative z-10 text-center px-4">
-        <h1 className="text-6xl md:text-8xl font-bold mb-6 text-black" style={{ fontFamily: 'Grobold, sans-serif' }}>
+        <h1 className="text-shadow text-6xl md:text-8xl font-bold mb-6 text-black" style={{ fontFamily: 'Grobold, sans-serif' }}>
           CRAZY HOT DOGS
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-black font-medium">

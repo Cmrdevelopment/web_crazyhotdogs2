@@ -23,7 +23,7 @@ function Navbar() {
               alt="Logo Crazy Hot Dogs" 
               className="w-14 h-auto"
             />
-            <div className="text-2xl font-bold text-[#FFC000]" style={{ fontFamily: 'Grobold, sans-serif' }}>
+            <div className="text-2xl font-bold text-[#FFC000]"  style={{ fontFamily: 'Grobold, sans-serif' }}>
               CRAZY HOT DOGS
             </div>
           </div>

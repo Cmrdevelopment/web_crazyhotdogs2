@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-stroke-2 {
+    -webkit-text-stroke: 1px rgb(254, 254, 254); /* grosor del borde + color */
+}
+
+.text-shadow {
+  text-shadow: 7px 5px 3px #edd65f; /* sombra visible */
+}
