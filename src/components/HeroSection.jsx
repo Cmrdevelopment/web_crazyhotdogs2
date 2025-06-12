@@ -10,7 +10,7 @@ const HeroSection = () => {
           ¡Sabores que desafían la imaginación!
         </p>
         <button className="bg-black text-[#FFC000] px-8 py-3 rounded-full text-lg font-bold hover:scale-105 transition-transform">
-          ¡PIDE AHORA!
+          ¡VER MENU!
         </button>
       </div>
     </div>

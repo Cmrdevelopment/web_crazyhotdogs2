@@ -2,7 +2,7 @@ const ContactSection = () => {
   return (
     <div className="py-16 px-4 bg-black text-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-12 text-[#FFC000]">CONTÁCTANOS</h2>
+        <h2 className="text-4xl text-center mb-12 text-[#FFC000] tracking-wide"style={{ fontFamily: 'Grobold, sans-serif' }}>Con - tacto</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>

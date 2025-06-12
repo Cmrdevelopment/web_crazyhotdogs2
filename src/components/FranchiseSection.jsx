@@ -44,7 +44,7 @@ const FranchiseSection = () => {
     <div className="py-16 px-4 bg-[#FFC000]">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-black">
-          ÚNETE AL <span className="underline">CRAZYHOTDOGS</span>
+          ÚNETE A <span className="underline">CRAZYHOTDOGS</span>
         </h2>
         <p className="text-xl text-center mb-12 text-black max-w-3xl mx-auto">
           Convierte tu pasión por la comida en un negocio rentable con nuestro modelo de franquicia probado

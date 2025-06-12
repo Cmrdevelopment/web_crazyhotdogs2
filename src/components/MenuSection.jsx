@@ -25,7 +25,7 @@ const MenuSection = () => {
 
   return (
     <div className="py-16 px-4 bg-white">
-      <h2 className="text-4xl font-bold text-center mb-12 text-black">NUESTROS SABROSOS HOT DOGS</h2>
+      <h2 className="text-4xl text-center mb-12 text-black tracking-wide"style={{ fontFamily: 'Grobold, sans-serif' }}>Nuestros sabores CRAZY</h2>
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {menuItems.map(item => (
           <div key={item.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
