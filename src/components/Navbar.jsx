@@ -6,6 +6,7 @@ function Navbar() {
 
   const navItems = [
     { key: '/', label: 'Inicio' },
+    { key: '/Locales', label: 'Locales' },
     { key: '/menu', label: 'Menú' },
     { key: '/about', label: 'Nosotros' },
     { key: '/contact', label: 'Con-tacto' },

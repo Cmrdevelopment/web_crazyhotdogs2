@@ -7,6 +7,7 @@ import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 import FranchiseSection from './components/FranchiseSection';
 import Footer from './components/Footer';
+import LocationsSection from './components/LocationsSection';
 
 
 
@@ -29,6 +30,7 @@ const App = () => {
                 </>
               }
             />
+            <Route path="/locales" element={<LocationsSection />} />
             <Route path="/menu" element={<MenuSection />} />
             <Route path="/about" element={<AboutSection />} />
             <Route path="/contact" element={<ContactSection />} />
