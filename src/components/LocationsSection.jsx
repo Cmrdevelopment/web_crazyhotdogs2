@@ -8,7 +8,7 @@ const LocationsSection = () => {
       address: "Carretera del Centro, 112, 35013 Las Palmas de Gran Canaria",
       region: "Gran Canaria",
       phone: "828 90 74 95",
-      hours: "Lun-Dom: 11:00 - 23:00",
+      hours: "Lun-Dom: 10:00 - 23:15",
       mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.506355927719!2d-15.445458023719771!3d28.100596808036048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc4095b07dc3d9f9%3A0xc9e7a6921a237173!2sCrazy%20Hot%20Dogs!5e0!3m2!1ses!2ses!4v1749810204265!5m2!1ses!2ses",
       image: "https://res.cloudinary.com/dssm2bf0j/image/upload/v1749817478/Web/Crazy_La_Ballena_yrzbw6.jpg"
     },
@@ -18,7 +18,7 @@ const LocationsSection = () => {
       address: "Centro Comercial El Mirador Plata Alta - Local 24A - Telde -",
       region: "Gran Canaria",
       phone: "928 68 68 53",
-      hours: "Lun-Dom: 12:00 - 23:00",
+      hours: "Lun-Sab: 10:00 - 22:00 Domingo: Cerrado",
       mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3521.738077028109!2d-15.406243123721444!3d28.03248021107497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40bd811f9fcae3%3A0x1752e4976723c48f!2sCrazy%20Hot%20Dogs!5e0!3m2!1ses!2ses!4v1749816033056!5m2!1ses!2ses",
       image: "https://res.cloudinary.com/dssm2bf0j/image/upload/v1749817488/Web/Crazy_Mirador_fxpb6u.jpg"
     },
