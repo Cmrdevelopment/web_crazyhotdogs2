@@ -18,16 +18,17 @@ function Navbar() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           {/* Logo + Título */}
-          <div className="flex items-center space-x-3">
-            <img 
-              src="https://res.cloudinary.com/dhfkoxnrq/image/upload/v1708693644/Logos%20Cracy/logo_mostaza_reduced_qfpwhv.png" 
-              alt="Logo Crazy Hot Dogs" 
-              className="w-14 h-auto"
-            />
-            <div className="text-2xl font-bold text-[#FFC000]"  style={{ fontFamily: 'Grobold, sans-serif' }}>
-              CRAZY HOT DOGS
-            </div>
+          <Link to="/" className="flex items-center space-x-3">
+          <img 
+            src="https://res.cloudinary.com/dhfkoxnrq/image/upload/v1708693644/Logos%20Cracy/logo_mostaza_reduced_qfpwhv.png" 
+            alt="Logo Crazy Hot Dogs" 
+            className="w-14 h-auto"
+          />
+          <div className="text-2xl font-bold text-[#FFC000]" style={{ fontFamily: 'Grobold, sans-serif' }}>
+            CRAZY HOT DOGS
           </div>
+        </Link>
+
 
           {/* Menú escritorio */}
           <div className="hidden md:flex items-center space-x-8">
