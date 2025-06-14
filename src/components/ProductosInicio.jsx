@@ -3,15 +3,24 @@ import useEmblaCarousel from 'embla-carousel-react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 const productos = [
+    // 💢✅ PRODUCTOS 
   { nombre: 'Productos', imagen: 'https://res.cloudinary.com/dhfkoxnrq/image/upload/v1708693644/Logos%20Cracy/logo_mostaza_reduced_qfpwhv.png' },
-  { nombre: 'Perrito Premium', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749840383/Web/Productos/7_-_PERRITO_PREMIUM_yhpxsf.png' },
-  { nombre: 'Nachos Cheddar', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749840404/Web/Productos/6_-_nachos_cheddar_peque%C3%B1os_wznt9v.png' },
+  { nombre: 'Perrito Premium', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749915200/Web/Productos/Perrito_Premium_sin_fondo_reduced_cr9o1g.png' },
   { nombre: 'Perrito Especial Doble', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749840600/Web/Productos/3_-_perrito_especial_doble_-_3.90_dxww8c.png' },
+  { nombre: 'Nachos Cheddar', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749840404/Web/Productos/6_-_nachos_cheddar_peque%C3%B1os_wznt9v.png' },
+
+  // 💢✅ MENUS 
   { nombre: 'Menús', imagen: 'https://res.cloudinary.com/dhfkoxnrq/image/upload/v1708693644/Logos%20Cracy/logo_mostaza_reduced_qfpwhv.png' },
   { nombre: 'Menú Crazy', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749860782/Web/Productos/Menu_Crazy_stz2zq.png' },
-  { nombre: 'Postres y café', imagen: 'https://res.cloudinary.com/dhfkoxnrq/image/upload/v1708693644/Logos%20Cracy/logo_mostaza_reduced_qfpwhv.png' },
-  { nombre: 'Menús', imagen: 'https://res.cloudinary.com/dhfkoxnrq/image/upload/v1708693644/Logos%20Cracy/logo_mostaza_reduced_qfpwhv.png' },
-  { nombre: 'Sabores Únicos', imagen: 'https://res.cloudinary.com/dhfkoxnrq/image/upload/v1708693644/Logos%20Cracy/logo_mostaza_reduced_qfpwhv.png' },
+  { nombre: 'Menú Big Crazy', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749914736/Web/Productos/Menu_Big_Crazy_explosivo_sin_fondo_r8dr93.png' },
+  // 💢✅ POSTRES y CAFES
+  { nombre: 'Desayunos, postres y café', imagen: 'https://res.cloudinary.com/dhfkoxnrq/image/upload/v1708693644/Logos%20Cracy/logo_mostaza_reduced_qfpwhv.png' },
+  { nombre: 'Postres', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749913935/Web/Productos/Postres_jd2xl3.png' },
+  { nombre: 'Desayunos y Cafés', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749914092/Web/Productos/Portada_desayunos_y_cafe_exihdn.png' },
+  // 💢✅ BEBIDAS 
+  { nombre: 'Bebidas', imagen: 'https://res.cloudinary.com/dhfkoxnrq/image/upload/v1708693644/Logos%20Cracy/logo_mostaza_reduced_qfpwhv.png' },
+  { nombre: 'Bebidas Frias', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749913987/Web/Productos/PORTADA_BEBIDAS_FRIAS_omghkg.png' },
+  { nombre: 'Bebidas Calientes', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749914452/Web/Productos/Caf%C3%A9_taza_bestial_sin_fondo_zon9t9.png' },
 ];
 
 const ProductosInicio = () => {
