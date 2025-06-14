@@ -8,6 +8,7 @@ import ContactSection from './components/ContactSection';
 import FranchiseSection from './components/FranchiseSection';
 import Footer from './components/Footer';
 import LocationsSection from './components/LocationsSection';
+import ProductosInicio from './components/ProductosInicio';
 
 
 
@@ -23,7 +24,7 @@ const App = () => {
               element={
                 <>
                   <HeroSection />
-                  <MenuSection />
+                  <ProductosInicio />
                   <Testimonials />
                   <AboutSection />
                   <ContactSection />

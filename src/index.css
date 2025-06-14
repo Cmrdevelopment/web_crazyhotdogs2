@@ -9,3 +9,16 @@
 .text-shadow {
   text-shadow: 7px 5px 3px #edd65f; /* sombra visible */
 }
+
+@keyframes pulse-glow {
+  0%, 100% {
+    text-shadow: 0 0 6px #ffc000, 0 0 12px #ffc000;
+  }
+  50% {
+    text-shadow: 0 0 16px #ffd700, 0 0 24px #ffcc00;
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s infinite;
+}
