@@ -76,9 +76,25 @@ const ProductosInicio = () => {
               Descubre nuestros <br />
               <span className="block mt-4 text-[#FFC000] drop-shadow-[5px_4px_3px_rgba(0,0,0,3)] ">sabores CRAZY</span>
             </h2>
-            <p className="md:text-left text-center text-xl md:text-2xl mb-8 text-black font-medium">
+            <p className="md:text-left text-center text-xl md:text-2xl mb-0 text-black font-medium">
               Disfruta de opciones deliciosas, desde nuestra carta de perritos hasta nuestros complementos más sabrosos.
             </p>
+            <div className='flex justify-center md:justify-start'>
+            <a
+            href="/menu"
+            className="relative inline-block w-[180px] h-[120px] group hover:scale-105 transition-transform duration-300 "
+            >
+            <img
+                src="https://res.cloudinary.com/dssm2bf0j/image/upload/v1749916007/Web/Mancha_de_tomate_sin_fondo_reduced_hs80kn.png"
+                alt="Ver menú"
+                className="absolute inset-0 w-full h-full object-contain pointer-events-none select-none"
+            />
+            <span className="relative z-10 flex items-center justify-center w-full h-full text-white font-extrabold text-sm text-center leading-tight px-2 tracking-widest drop-shadow-[2px_3px_0_rgba(0,0,0,1)]" style={{ fontFamily: 'Grobold, sans-serif' }}>
+            Ver <br /> menú
+            </span>
+            </a>
+            </div>
+
           </div>
           <div className="md:w-1/3 flex justify-center mt-1 md:mt-0 mb-5 md:mb-0">
             <img
@@ -91,7 +107,10 @@ const ProductosInicio = () => {
 
         {/* Carrusel */}
         <div className="relative">
-          <button onClick={scrollPrev} className="absolute left-0 top-1/2 -translate-y-1/2 bg-Mostaza text-black p-3 rounded-full shadow hover:bg-Mostaza z-10">
+          <button 
+          onClick={scrollPrev} 
+          aria-label="Anterior"
+          className="absolute left-0 top-1/2 -translate-y-1/2 bg-Mostaza text-black p-3 rounded-full shadow hover:bg-Mostaza z-10">          
             <FaChevronLeft size={20} />
           </button>
 
@@ -108,7 +127,10 @@ const ProductosInicio = () => {
             </div>
           </div>
 
-          <button onClick={scrollNext} className="absolute right-0 top-1/2 -translate-y-1/2 bg-yellow-400 text-black p-3 rounded-full shadow hover:bg-yellow-300 z-10">
+          <button 
+          onClick={scrollNext}
+          aria-label="Siguiente" 
+          className="absolute right-0 top-1/2 -translate-y-1/2 bg-yellow-400 text-black p-3 rounded-full shadow hover:bg-yellow-300 z-10">
             <FaChevronRight size={20} />
           </button>
         </div>
