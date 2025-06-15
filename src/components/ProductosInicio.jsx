@@ -11,7 +11,7 @@ const productos = [
 
   // 💢✅ MENUS 
   { nombre: 'Menús', imagen: 'https://res.cloudinary.com/dhfkoxnrq/image/upload/v1708693644/Logos%20Cracy/logo_mostaza_reduced_qfpwhv.png' },
-  { nombre: 'Menú Crazy', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749860782/Web/Productos/Menu_Crazy_stz2zq.png' },
+  { nombre: 'Menú Crazy', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749929746/Web/Productos/Menu_Crazy_explosivo_reduced_sin_fond_klnbcf.png' },
   { nombre: 'Menú Big Crazy', imagen: 'https://res.cloudinary.com/dssm2bf0j/image/upload/v1749914736/Web/Productos/Menu_Big_Crazy_explosivo_sin_fondo_r8dr93.png' },
   // 💢✅ POSTRES y CAFES
   { nombre: 'Desayunos, postres y café', imagen: 'https://res.cloudinary.com/dhfkoxnrq/image/upload/v1708693644/Logos%20Cracy/logo_mostaza_reduced_qfpwhv.png' },

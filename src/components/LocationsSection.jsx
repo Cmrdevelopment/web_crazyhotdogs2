@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import KetchupSplash from './KetchupSplash';
 
 const LocationsSection = () => {
   const locations = [
@@ -88,6 +89,8 @@ const LocationsSection = () => {
           </div>
         )}
       </div>
+      {/* ✅ Animación de manchas dinámicas */}
+      <KetchupSplash />
     </div>
   );
 };

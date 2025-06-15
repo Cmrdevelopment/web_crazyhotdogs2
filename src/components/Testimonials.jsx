@@ -2,8 +2,8 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      quote: "¡Los hot dogs más locos que he probado en mi vida! Cada bocado es una explosión de sabores.",
-      author: "Juan Pérez"
+      quote: "Me sorprendió el tema de los desayunos, al principio no estaba muy convencido pero los probé y bastante bien, calidad, buen precio y el café perfecto.",
+      author: "Ismael"
     },
     {
       id: 2,
