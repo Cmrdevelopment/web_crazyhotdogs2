@@ -48,7 +48,7 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center mb-20">
           <div className="relative group transform transition-transform duration-500 hover:scale-105 hover:rotate-2">
             <img
-              src="https://res.cloudinary.com/dssm2bf0j/image/upload/v1749664804/Web/Foto_con_fondo_ciudad_v3_p6xfyy.png"
+              src="https://res.cloudinary.com/dssm2bf0j/image/upload/v1750169490/Web/Foto_Hermanos_Garcia_A%C3%B1os_luz_crazy_nosotros_reduced_mr05mo.jpg"
               alt="Orígenes de Crazy Hot Dogs"
               className="w-full h-auto rounded-3xl shadow-2xl border-4 border-white transform transition-all duration-500 group-hover:shadow-3xl"
             />
