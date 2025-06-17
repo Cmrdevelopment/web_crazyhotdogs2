@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primaryrojo: "#C22634", 
+        primaryrojo: "#C22634",
         secondarynegro: "#000000",
         Mostaza: "#EAC60C",
         MostazaSuave: "#edd65f",
@@ -17,18 +17,44 @@ export default {
       },
 
       fontFamily: {
-        grobold: ['Grobold', 'sans-serif'], // ✅ AÑADIDO AQUÍ
+        grobold: ["Grobold", "sans-serif"],
       },
-      
+
       animation: {
-        ketchup: 'ketchupAnim 5s ease-in-out forwards',
+        ketchup: "ketchupAnim 3s ease-in-out forwards",
+        "slide-in-center": "slideInCenter 1s ease-out forwards",
+        slideInLeft: "slideInLeft 1s ease-out forwards",
+        slideInRight: "slideInRight 1s ease-out forwards",
+        fadeOut: "fadeOut 0.5s ease-in forwards",
+        fadeIn: "fadeIn 0.5s ease-in forwards",
       },
+
       keyframes: {
         ketchupAnim: {
-          '0%': { opacity: '0', transform: 'scale(0.5) rotate(0deg)' },
-          '20%': { opacity: '0.8', transform: 'scale(1.1) rotate(10deg)' },
-          '80%': { opacity: '0.8' },
-          '100%': { opacity: '0', transform: 'scale(0.4) rotate(-20deg)' },
+          "0%": { opacity: "0", transform: "scale(0.5) rotate(0deg)" },
+          "20%": { opacity: "0.8", transform: "scale(1.1) rotate(10deg)" },
+          "80%": { opacity: "0.8" },
+          "100%": { opacity: "0", transform: "scale(0.4) rotate(-20deg)" },
+        },
+        slideInCenter: {
+          "0%": { transform: "translateX(100vw)" },
+          "100%": { transform: "translateX(0)" },
+        },
+        slideInLeft: {
+          "0%": { transform: "translateX(-100%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+        slideInRight: {
+          "0%": { transform: "translateX(100%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+        fadeOut: {
+          "0%": { opacity: "1" },
+          "100%": { opacity: "0" },
+        },
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
         },
       },
     },
