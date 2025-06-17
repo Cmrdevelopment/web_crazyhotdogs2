@@ -24,7 +24,7 @@ const LocationsSection = () => {
       hours: "Lun-Sab: 10:00 - 22:00 Domingo: Cerrado",
       mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3521.738077028109!2d-15.406243123721444!3d28.03248021107497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40bd811f9fcae3%3A0x1752e4976723c48f!2sCrazy%20Hot%20Dogs!5e0!3m2!1ses!2ses!4v1749816033056!5m2!1ses!2ses",
       directionsLink: "https://www.google.com/maps/dir/?api=1&destination=28.032712229326414, -15.403646745338648",
-      image: "https://res.cloudinary.com/dssm2bf0j/image/upload/v1749817488/Web/Crazy_Mirador_fxpb6u.jpg"
+      image: "https://res.cloudinary.com/dssm2bf0j/image/upload/v1750153903/Web/Local_Mirador_pqwbkn.jpg"
     },
   ];
 

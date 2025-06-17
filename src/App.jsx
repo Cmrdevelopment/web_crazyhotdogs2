@@ -9,6 +9,7 @@ import FranchiseSection from './components/FranchiseSection';
 import Footer from './components/Footer';
 import LocationsSection from './components/LocationsSection';
 import ProductosInicio from './components/ProductosInicio';
+import AboutSectionInicio from './components/AboutSectionInicio';
 
 
 
@@ -26,7 +27,7 @@ const App = () => {
                   <HeroSection />
                   <ProductosInicio />
                   <Testimonials />
-                  <AboutSection />
+                  <AboutSectionInicio />
                   <ContactSection />
                 </>
               }
