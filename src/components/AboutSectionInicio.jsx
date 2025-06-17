@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const AboutSectionInicio = () => {
   return (
     <div className="py-16 px-4 bg-white">
@@ -40,13 +42,14 @@ const AboutSectionInicio = () => {
     ¿Tienes alma emprendedora? 🚀 Lleva la locura de los hot dogs a tu ciudad con nuestra franquicia. 
     Te damos todo el apoyo que necesitas para triunfar desde el primer día.
   </p>
-  <a
-    href="/franquicia"
+    <Link
+    to="/franquicia"
     className="inline-block bg-black text-[#FFC000] px-6 py-3 rounded-full hover:bg-[#1a1a1a] transition-colors tracking-wide"
     style={{ fontFamily: 'Grobold, sans-serif' }}
-  >
-    MAS INFORMACION
-  </a>
+    >
+    MÁS INFORMACIÓN
+    </Link>
+
 </div>
 
 
