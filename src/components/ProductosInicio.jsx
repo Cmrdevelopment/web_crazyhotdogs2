@@ -88,7 +88,7 @@ const ProductosInicio = () => {
                 <img
                 src="https://res.cloudinary.com/dssm2bf0j/image/upload/v1750158606/Web/Perrito_para_Hero_normal_sin_fondo_reduced_j2pqqx.png"
                 alt="¡Ver menú!"
-                className="mt-8 ml-5 md:mt-8 md:ml-5 w-36 md:w-48 absolute inset-0 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
+                className="mt-8 ml-5 md:mt-8 md:ml-5 w-44 md:w-32 absolute inset-0 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
                 />
 
                 {/* Imagen hover */}

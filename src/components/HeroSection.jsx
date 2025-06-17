@@ -42,7 +42,7 @@ const HeroSection = () => {
               <img
                 src="https://res.cloudinary.com/dssm2bf0j/image/upload/v1750157667/Web/Perrito_hero_Doble_normal_sin_forndo_reduced_j504bk.png"
                 alt="Perrito izquierda"
-                className={`w-[160px] md:w-[180px] absolute ${
+                className={`w-[160px] md:w-[200px] absolute ${
                   phase === "fade" ? "animate-fadeOut" : "animate-slideInLeft"
                 }`}
               />
