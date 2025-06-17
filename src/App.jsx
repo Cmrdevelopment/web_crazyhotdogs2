@@ -10,12 +10,14 @@ import Footer from './components/Footer';
 import LocationsSection from './components/LocationsSection';
 import ProductosInicio from './components/ProductosInicio';
 import AboutSectionInicio from './components/AboutSectionInicio';
+import ScrollToTop from './components/ScrollToTop';
 
 
 
 const App = () => {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <div className="font-sans">
         <Navbar />
         <main className="pt-16">
