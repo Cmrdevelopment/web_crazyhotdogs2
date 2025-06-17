@@ -22,11 +22,13 @@ export default {
 
       animation: {
         ketchup: "ketchupAnim 3s ease-in-out forwards",
-        "slide-in-center": "slideInCenter 1s ease-out forwards",
-        slideInLeft: "slideInLeft 1s ease-out forwards",
-        slideInRight: "slideInRight 1s ease-out forwards",
         fadeOut: "fadeOut 0.5s ease-in forwards",
         fadeIn: "fadeIn 0.5s ease-in forwards",
+        bounceIn: "bounceIn 0.6s ease-out forwards",
+        slideInLeftMobile: "slideInLeftMobile 1.2s ease-out forwards",
+        slideInRightMobile: "slideInRightMobile 1.2s ease-out forwards",
+        slideInLeftDesktop: "slideInLeftDesktop 0.7s ease-out forwards",
+        slideInRightDesktop: "slideInRightDesktop 0.7s ease-out forwards",
       },
 
       keyframes: {
@@ -36,39 +38,36 @@ export default {
           "80%": { opacity: "0.8" },
           "100%": { opacity: "0", transform: "scale(0.4) rotate(-20deg)" },
         },
-        slideInCenter: {
-          "0%": { transform: "translateX(100vw)" },
-          "100%": { transform: "translateX(0)" },
-        },
-        slideInLeft: {
-          "0%": { transform: "translateX(-100%)", opacity: "0" },
-          "90%": { transform: "translateX(0)", opacity: "1" },
-        },
-        slideInRight: {
-          "0%": { transform: "translateX(100%)", opacity: "0" },
-          "90%": { transform: "translateX(0)", opacity: "1" },
-        },
         fadeOut: {
           "0%": { opacity: "1" },
-          "80%": { opacity: "0" },
+          "100%": { opacity: "0" },
         },
         fadeIn: {
           "0%": { opacity: "0" },
-          "80%": { opacity: "1" },
+          "100%": { opacity: "1" },
+        },
+        bounceIn: {
+          "0%": { transform: "scale(0.5)", opacity: "0" },
+          "60%": { transform: "scale(1.1)", opacity: "1" },
+          "100%": { transform: "scale(1)" },
+        },
+        slideInLeftMobile: {
+          "0%": { transform: "translateX(-100%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+        slideInRightMobile: {
+          "0%": { transform: "translateX(100%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+        slideInLeftDesktop: {
+          "0%": { transform: "translateX(-150%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+        slideInRightDesktop: {
+          "0%": { transform: "translateX(150%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
         },
       },
-    },
-  },
-
-  variants: {
-    extend: {
-      transitionProperty: [
-        "hover",
-        "focus",
-        "responsive",
-        "motion-safe",
-        "motion-reduce",
-      ],
     },
   },
 
