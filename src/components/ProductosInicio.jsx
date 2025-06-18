@@ -88,7 +88,7 @@ const ProductosInicio = () => {
                 <img
                 src="https://res.cloudinary.com/dssm2bf0j/image/upload/v1750158606/Web/Perrito_para_Hero_normal_sin_fondo_reduced_j2pqqx.png"
                 alt="¡Ver menú!"
-                className="mt-8 ml-5 md:mt-8 md:ml-5 w-44 md:w-32 absolute inset-0 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
+                className="mt-5 ml-5 md:mt-8 md:ml-5 w-28 md:w-32 absolute inset-0 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
                 />
 
                 {/* Imagen hover */}
@@ -98,7 +98,7 @@ const ProductosInicio = () => {
                 className="w-full transition-opacity duration-300 opacity-0 group-hover:opacity-100"
                 />
                 <span
-                className="absolute left-1/2 transform -translate-x-1/2 top-full mt-[-50px] text-black text-sm md:text-base tracking-widest opacity-100 group-hover:opacity-0 transition-opacity duration-300"
+                className="absolute left-1/2 transform -translate-x-1/2 top-full ml-3 mt-[-50px] md:mt-[-50px] text-black text-sm md:text-base tracking-widest opacity-100 group-hover:opacity-0 transition-opacity duration-300"
                 style={{ fontFamily: 'Grobold, sans-serif' }}
               >
                 Ver MENU
@@ -109,7 +109,7 @@ const ProductosInicio = () => {
 
 
           </div>
-          <div className="md:w-1/3 flex justify-center mt-1 md:mt-0 mb-5 md:mb-0">
+          <div className="hidden md:w-1/3 md:flex justify-center mt-1 md:mt-0 mb-5 md:mb-0">
             <img
               src="https://res.cloudinary.com/dssm2bf0j/image/upload/v1749858357/Web/Productos/Men%C3%BA_Duoo_para_web_tdu1lt.png"
               alt="Crazy menú"
