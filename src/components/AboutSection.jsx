@@ -69,6 +69,15 @@ const AboutSection = () => {
 
         {/* BLOQUE 2 */}
         <div className="grid md:grid-cols-2 gap-16 items-center flex-row-reverse mb-20">
+          
+          <div className="text-white text-xl leading-relaxed bg-black bg-opacity-40 p-8 rounded-2xl shadow-xl backdrop-blur-sm animate-fade-in-left">
+            <p className="mb-6">
+              La idea surgió al ver un puesto de hot dogs en un centro comercial y, tras adquirir un carrito de segunda mano, comenzaron su andadura en el Centro Comercial La Ballena.
+            </p>
+            <p className="mb-6">
+              Una promoción improvisada con perritos a 1€ disparó las ventas. Apostaron por precios bajos y ventas masivas, consolidándose en Gran Canaria y aprendiendo de cada experiencia.
+            </p>
+          </div>
           <div className="relative group transform transition-transform duration-500 hover:scale-105 hover:-rotate-2">
             <img
               src="https://res.cloudinary.com/dssm2bf0j/image/upload/v1750238068/Web/Foto_Hermanos_Garcia_la_ballena_crazy_nosotros_reduced_lnrxpj.jpg"
@@ -78,14 +87,6 @@ const AboutSection = () => {
             <div className="absolute inset-0 bg-black bg-opacity-50 rounded-3xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <p className="text-white text-3xl font-bold text-center p-4">¡De carrito a leyenda!</p>
             </div>
-          </div>
-          <div className="text-white text-xl leading-relaxed bg-black bg-opacity-40 p-8 rounded-2xl shadow-xl backdrop-blur-sm animate-fade-in-left">
-            <p className="mb-6">
-              La idea surgió al ver un puesto de hot dogs en un centro comercial y, tras adquirir un carrito de segunda mano, comenzaron su andadura en el Centro Comercial La Ballena.
-            </p>
-            <p className="mb-6">
-              Una promoción improvisada con perritos a 1€ disparó las ventas. Apostaron por precios bajos y ventas masivas, consolidándose en Gran Canaria y aprendiendo de cada experiencia.
-            </p>
           </div>
         </div>
 
