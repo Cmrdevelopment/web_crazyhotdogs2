@@ -97,14 +97,13 @@ const ProductosInicio = () => {
                 alt="¡Ver menú!"
                 className="w-full transition-opacity duration-300 opacity-0 group-hover:opacity-100"
                 />
-
-                {/* Texto MENU (solo en hover) */}
                 <span
-                className="absolute left-1/2 transform -translate-x-1/2 top-full mt-[-15px] text-black text-sm md:text-base tracking-widest opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                className="absolute left-1/2 transform -translate-x-1/2 top-full mt-[-50px] text-black text-sm md:text-base tracking-widest opacity-100 group-hover:opacity-0 transition-opacity duration-300"
                 style={{ fontFamily: 'Grobold, sans-serif' }}
-                >
+              >
                 Ver MENU
-                </span>
+              </span>
+
             </a>
             </div>
 
